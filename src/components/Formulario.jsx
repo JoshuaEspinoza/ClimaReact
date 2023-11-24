@@ -24,7 +24,7 @@ const Formulario = () => {
 			{alerta && <MessageError>{alerta}</MessageError>}
 			<form onSubmit={handleSubmit}>
 				<div className="campo">
-					<label htmlFor="ciudad">Ciudad</label>
+					<label htmlFor="ciudad">Ciudad:</label>
 					<input
 						type="text"
 						id="ciudad"
@@ -34,7 +34,7 @@ const Formulario = () => {
 					/>
 				</div>
 				<div className="campo">
-					<label htmlFor="pais">país</label>
+					<label htmlFor="pais">país:</label>
 					<select
 						name="pais"
 						id="pais"
